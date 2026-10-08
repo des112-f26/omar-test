@@ -22,3 +22,17 @@ main {
   margin: 4rem auto;
   padding: 0 1rem;
 }
+
+.square {
+  width: 120px;
+  height: 120px;
+  background: #2e9e4f;
+  border-radius: 8px;
+  /* Smoothly animate any change to transform or background */
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.square:hover {
+  transform: scale(1.15) rotate(15deg);
+  background: #3fcf6a;
+}
